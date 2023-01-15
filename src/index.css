@@ -1,10 +1,12 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(7,121,185);
+  /* background: linear-gradient(180deg, rgb(15, 94, 123) 0%, rgb(10, 94, 96)20%, rgb(47, 74, 71) 100%); */
+  font-family: 'Overpass', sans-serif;
+
+  /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
 }
 
 code {

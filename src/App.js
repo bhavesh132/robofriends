@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import Robos from "./components/Robos"
 import Loader from "./components/Loader"
 import Scroll from "./components/Scroll"
+import ErrorBoundary from './components/ErrorBoundary'
 
 class App extends React.Component {
   constructor() {
@@ -38,7 +39,9 @@ class App extends React.Component {
         <div className="App">
           <Header searchChange={this.searchChange} />
           <Scroll>
+            <ErrorBoundary>
             <Robos robots={filteredRobots} />
+            </ErrorBoundary>
           </Scroll>
         </div>
       )
